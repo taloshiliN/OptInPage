@@ -1,13 +1,25 @@
 html, body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header{
+#section-header{
+    text-align: center;
+    padding: 20px;
     background-color: rgb(49, 49, 235);
+    color: white;
 }
 
 main{
+    padding: 20px;
     background-color: rgb(80, 93, 236);
+    color: white;
+}
+
+#section-footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(49, 49, 235);
+    color: white;
 }
 
 footer{
