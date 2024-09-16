@@ -5,25 +5,25 @@ html, body{
 #section-header{
     padding: 20px;
     text-align: center;
-    background-color: rgb(49, 49, 235);
+    background-color: rgb(238, 189, 120);
     color: white;
 }
 
 main{
     padding: 20px;
-    background-color: rgb(80, 93, 236);
+    background-color: rgb(244, 199, 141);
     color: white;
 }
 
 #section-footer{
     padding: 20px;
     text-align: center;
-    background-color: rgb(49, 49, 235);
+    background-color: rgb(238, 189, 120);
     color: white;
 }
 
 footer{
-    background-color: rgb(114, 114, 223);
+    background-color: rgb(244, 199, 141);
 }
 .container {
     padding: 20px;
