@@ -1,28 +1,24 @@
 html, body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 #section-header{
     padding: 20px;
     text-align: center;
     background-color: rgb(238, 189, 120);
     color: white;
 }
-
 main{
     padding: 20px;
     text-align: center;
     background-color: rgb(244, 199, 141);
     color: white;
 }
-
 #section-footer{
     padding: 20px;
     text-align: center;
     background-color: rgb(238, 189, 120);
     color: white;
 }
-
 footer{
     background-color: rgb(244, 199, 141);
 }
