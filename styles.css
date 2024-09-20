@@ -1,6 +1,10 @@
 html, body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/*background image*/
+.welcome-area{
+    background: rgba(0, 0, 0, 0) url("./Asset/Background.jpg");
+}
 #section-header{
     padding: 20px;
     text-align: center;
