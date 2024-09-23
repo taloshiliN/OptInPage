@@ -4,21 +4,24 @@ html, body{
 /*background image*/
 .welcome-area{
     background: rgba(0, 0, 0, 0) url("./Asset/Background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    
 }
 #section-header{
-    padding: 20px;
+    padding: 20%;
     text-align: center;
     background-color: rgb(238, 189, 120);
     color: white;
 }
 main{
-    padding: 20px;
+    padding: 20%;
     text-align: center;
     background-color: rgb(244, 199, 141);
     color: white;
 }
 #section-footer{
-    padding: 20px;
+    padding: 20%;
     text-align: center;
     background-color: rgb(238, 189, 120);
     color: white;
