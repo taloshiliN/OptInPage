@@ -44,7 +44,7 @@ app.post("/api/user", (req, res) =>{
     const {name, email} = req.body;
 
     db.query(
-        "INSERT INTO fellow_users (name, email) VALUES (?,?)",
+        "INSERT INTO users_tbl (name, email) VALUES (?,?)",
         [name, email],
         (err, result) => {
             if(err){

@@ -3,7 +3,6 @@ import "../styles/index.css"
 import Form from '../components/Form';
 
 function Index() {
-
     const [showForm, setShowForm] = useState(false);
 
     const handleOpenForm = () => {
@@ -32,7 +31,7 @@ function Index() {
             <p>&copy; 2024 Taloshili. All rights reserved.</p>
             </div>
         </footer>
-        {showForm && <Form onClose={handleCloseForm} />}
+        {showForm && <Form isVisible={showForm} onClose={handleCloseForm} />}
     </div>
   )
 }

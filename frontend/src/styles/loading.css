@@ -1,0 +1,33 @@
+/* loading.css */
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  .spinner {
+    border: 8px solid rgba(255, 255, 255, 0.3); /* Light color for the background */
+    border-top: 8px solid #007bff; /* Change this color to match your theme */
+    border-radius: 50%;
+    width: 40px; /* Spinner diameter */
+    height: 40px; /* Spinner diameter */
+    animation: spin 5s linear infinite; /* Spin animation */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loading p {
+    font-size: 20px; /* Adjust font size as needed */
+    color: #007bff; /* Change to your preferred color */
+    margin-top: 10px; /* Space between spinner and text */
+  }
+  

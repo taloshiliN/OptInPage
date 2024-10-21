@@ -1,10 +1,13 @@
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom"
-import Index from "./pages"
+import Index from "./pages/Index"
+import { Provider } from "react-redux"
+import {store} from "../store"
 function App() {
 
   return (
     <>
-      <BrowserRouter>
+    <Provider store={store}>
+    <BrowserRouter>
       <Routes>
         <Route 
           path="/index"
@@ -12,6 +15,7 @@ function App() {
         />
       </Routes>
       </BrowserRouter>
+    </Provider>
     </>
   )
 }
