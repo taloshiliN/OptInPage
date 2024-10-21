@@ -1,0 +1,48 @@
+html, body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*background image*/
+.welcome-area{
+    background: rgba(0, 0, 0, 0) url("../assets/Background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+#section-header{
+    padding: 20%;
+    text-align: center;
+    background-color: rgb(238, 189, 120);
+    color: white;
+}
+main{
+    padding: 20%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.Access-button{
+    padding: 10px;
+    border-radius: 25px;
+}
+.Access-button:hover{
+    background-color: black;
+    color: white;
+}
+#section-footer{
+    padding: 20%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+footer{
+    background: rgba(0, 0, 0, 0) url("../assets/Background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
