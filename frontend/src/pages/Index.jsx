@@ -4,7 +4,6 @@ import Form from '../components/Form';
 
 function Index() {
     const [showForm, setShowForm] = useState(false);
-
     const handleOpenForm = () => {
         setShowForm(true);
     };
@@ -36,4 +35,4 @@ function Index() {
   )
 }
 
-export default Index
+export default Index;
