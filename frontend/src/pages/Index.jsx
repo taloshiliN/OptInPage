@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "../styles/index.css"
 import Form from '../components/Form';
+import Image from "../assets/Image.png"
 
 function Index() {
     const [showForm, setShowForm] = useState(false);
@@ -15,8 +16,10 @@ function Index() {
     <div>
         <div id='section-header' className='welcome-area'>
             <h1>OPT-IN</h1>
-            <img src="" alt="" />
+            <img className='image' src={Image} alt="Game Image" />
+            <div className='button'>
             <button className='Access-button' onClick={handleOpenForm}>Gain Access</button>
+            </div>
         </div>
         <main>
             Main
