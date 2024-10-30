@@ -14,15 +14,15 @@ function Index() {
     };
   return (
     <div>
-        <div id='section-header' className='welcome-area'>
-            <h1>OPT-IN</h1>
+        <div id='section-header' className='welcome-area overlay'>
+            <h1>THE PUGILIST, COMING SOON...</h1>
             <img className='image' src={Image} alt="Game Image" />
             <div className='button'>
             <button className='Access-button' onClick={handleOpenForm}>Gain Access</button>
             </div>
         </div>
         <main>
-            Main
+            This is the Official Website for The Pugilist
         </main>
         <div id='section-footer'>
             Foot
